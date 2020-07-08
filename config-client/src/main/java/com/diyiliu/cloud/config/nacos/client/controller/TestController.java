@@ -1,4 +1,4 @@
-package com.diyiliu.cloud.config.bus.client.controller;
+package com.diyiliu.cloud.config.nacos.client.controller;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.cloud.context.config.annotation.RefreshScope;
