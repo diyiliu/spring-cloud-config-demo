@@ -8,10 +8,23 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="config-server" />
-        <module name="config-nacos-client" />
+        <module name="config-kafka-server" />
+        <module name="config-kafka-client" />
         <module name="config-nacos-server" />
         <module name="config-client" />
+        <module name="config-nacos-client" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="config-client" target="1.8" />
+      <module name="config-kafka-client" target="1.8" />
+      <module name="config-kafka-server" target="1.8" />
+      <module name="config-nacos-client" target="1.8" />
+      <module name="config-nacos-server" target="1.8" />
+      <module name="config-server" target="1.8" />
+      <module name="spring-cloud-config-bus" target="1.8" />
+      <module name="spring-cloud-config-demo" target="1.8" />
+      <module name="spring-cloud-config-nacos" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
